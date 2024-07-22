@@ -1,0 +1,15 @@
+.lista-nav {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+
+    &__link {
+        text-decoration: none;
+        color: $primary;
+        font-size: $fs5;
+
+        &:hover {
+            color: $secondary;
+        }
+    }
+}

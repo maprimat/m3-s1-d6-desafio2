@@ -1,0 +1,15 @@
+.header {
+    display:flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    padding: 20px 70px;
+    justify-content: space-between;
+    background-color: $white;
+    border-bottom: 1px solid $secondary;
+
+    &__container-list {
+        display: flex;
+        align-items: center;
+    }
+}

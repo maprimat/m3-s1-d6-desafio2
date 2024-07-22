@@ -1,0 +1,27 @@
+.newsletter {
+
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: $sp5;
+    background-color: $adl;
+    border-radius: 15px;
+
+    &__text {
+        color: white;
+        font-size: $fs4;
+        font-weight: $font-bold;
+        text-align: left;
+        padding-bottom: 10px;
+    }
+
+    &__form {
+
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: 0 auto;
+    }
+
+}

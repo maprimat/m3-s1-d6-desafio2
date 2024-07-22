@@ -1,0 +1,52 @@
+.main-post-bootstrap {
+    margin: 100px auto 0 auto;
+    width: 90%;
+
+    &__relacionados-box {
+        width: 30%;
+
+        &__title {
+            padding: 30px;
+        }
+    }
+}
+
+.post-bootstrap {
+
+    &__titulo{
+        font-size: $fs4;
+        padding: $sp4 0;
+    }
+
+    &__news {
+        background-color: $secondary;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: $sp4 0;
+        padding: $sp5;
+    }
+
+    &__texto {
+        color: black;
+        font-family: $poppins-font;
+    }
+
+    &__imagen {
+        margin: 20px;
+        border-radius: 30px;
+    }
+
+    &__container-image {
+
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.main-post-bootstrap__relacionados {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
